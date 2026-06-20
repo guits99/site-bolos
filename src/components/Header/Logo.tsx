@@ -1,14 +1,14 @@
 import iconeBolo from "@/assets/iconeBolo.png";
 
-type HeaderProps = {
+type LogoProps = {
   title: string;
 };
 
-export function Header({ title }: HeaderProps) {
+export function Logo({ title }: LogoProps) {
   return (
-    <header className="flex items-center justify-center gap-3 px-6 py-4">
+    <div className="flex items-center gap-3">
       <img src={iconeBolo} alt="Ícone de bolo" className="h-16 w-16" />
       <h1 className="text-2xl font-bold">{title}</h1>
-    </header>
+    </div>
   );
 }
