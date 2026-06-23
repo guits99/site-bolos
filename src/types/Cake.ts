@@ -1,7 +1,6 @@
-export type Bolo = {
+export type Cake = {
   id: number;
   nome: string;
-  descricao: string;
   preco: number;
   imagem: string;
 };

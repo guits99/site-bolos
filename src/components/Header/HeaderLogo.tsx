@@ -1,10 +1,10 @@
 import iconeBolo from "@/assets/iconeBolo.png";
 
-type LogoProps = {
+type HeaderLogoProps = {
   title: string;
 };
 
-export function Logo({ title }: LogoProps) {
+export function HeaderLogo({ title }: HeaderLogoProps) {
   return (
     <div className="flex items-center gap-3">
       <img src={iconeBolo} alt="Ícone de bolo" className="h-16 w-16" />

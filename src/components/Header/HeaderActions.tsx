@@ -9,17 +9,17 @@ export function HeaderActions() {
         src={cart}
         alt="carrinho de supermercado"
         className="h-8 w-8 cursor-pointer hover:scale-125 transition-transform duration-200 "
-      ></img>
+      />
       <img
         src={lupa}
         alt="lupa de pesquisa"
         className="h-8 w-8 cursor-pointer hover:scale-125 transition-transform duration-200 "
-      ></img>
+      />
       <img
         src={user}
         alt="usuario"
         className="h-8 w-8 cursor-pointer hover:scale-125 transition-transform duration-200 "
-      ></img>
+      />
     </div>
   );
 }
